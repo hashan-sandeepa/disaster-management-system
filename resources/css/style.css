@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Open Sans';
+}
+
+#map {
+    height: 555px;
+    width: 100%;
+}
+
+.header {
+    background-color: aliceblue;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero {
+    position: absolute;
+    width: 1200px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.you {
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px;
+}
+
+.about {
+
+    font-size: 25px;
+    text-align: center;
+    margin-top: 275px;
+}
+
+.pictures {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav li.active {
+    background-color: #f44336;
+}
+
+#nav li:hover {
+    background-color: white;
+}
+
+#nav li a:hover {
+    text-decoration: none;
+    color: #f44336;
+}
+
+.nav-tabs {
+    margin-bottom: 15px;
+}
+
+.my-alert {
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+#map-canvas {
+    width: 100%;
+    height: 300px;
+    padding-bottom: 5px
+}
+
+.user_map{
+    width: 250px;
+    height: 200px;
+}
+
+.status-label{
+    width: 100%;
+    color: white;
+    padding: 10px;
+}
+
+.open_label{
+    background-color: #F44336;
+}
+
+.resolve_label{
+    background-color: #4cae4c;
+}
+
+.pending_label{
+    background-color: #F57F17;
+}
+
+.actionBtn{
+    color: white;
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top:10px;
+}
+
+.actionBtn:hover{
+    color: #4cae4c;
+    text-decoration: none;
+    background-color: white;
+}
+
+.resolveBtn{
+    border: 2px solid #4cae4c;
+    background-color: #4cae4c;
+}
+
+.resolveBtn:hover{
+    border: 2px solid #4cae4c;
+}
+
+.approveBtn{
+    background-color: #009688;
+    border: 2px solid #009688;
+}
+
+.approveBtn:hover{
+    border: 2px solid #009688;
+}
